@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -11,6 +12,7 @@
   <title>Four card feature section</title>
 
 </head>
+
 <body>
 
   <section class="features-section">
@@ -20,32 +22,39 @@
     </h1>
 
     <h2 class="features__subtitle">Our Artificial Intelligence powered tools use millions of project data points
-    to ensure that your project is successful</h2>
+      to ensure that your project is successful</h2>
 
-    <div class="cards">
-      <div class="card card-whole">
-        <h3>Supervisor</h3>
-        <p>Monitors activity to identify project roadblocks</p>
-        <img src="../images/icon-supervisor.svg" alt="">
+    <div class="cards-container">
+      <div class="card card-start">
+        <div class="card-container">
+          <h3 class="card__title">Supervisor</h3>
+          <p class="card__paragraph">Monitors activity to identify project roadblocks</p>
+          <img class="card__image" src="./images/icon-supervisor.svg" alt="Supervisor">
+        </div>
       </div>
-      <div class="card">
-        <h3>Team Builder</h3>
-        <p>Monitors activity to identify project roadblocks</p>
-        <img src="../images/icon-supervisor.svg" alt="">
+      <div class="card card-individual-1">
+        <div class="card-container">
+          <h3 class="card__title">Team Builder</h3>
+          <p class="card__paragraph">Monitors activity to identify project roadblocks</p>
+          <img class="card__image" src="./images/icon-team-builder.svg" alt="Team builder">
+        </div>
       </div>
-      <div class="card card-span">
-        <h3>Karma</h3>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <img src="../images/icon-supervisor.svg" alt="">
+      <div class="card card-indivudual-2">
+        <div class="card-container">
+        <h3 class="card__title">Karma</h3>
+        <p class="card__paragraph">Regularly evaluates our talent to ensure quality</p>
+        <img class="card__image" src="./images/icon-karma.svg" alt="">
+        </div>
       </div>
-      <div class="card card-whole">
-        <h3>Calculator</h3>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <img src="../images/icon-supervisor.svg" alt="">
+      <div class="card card-end">
+        <div class="card-container">
+        <h3 class="card__title">Calculator</h3>
+        <p class="card__paragraph">Uses data from past projects to provide better delivery estimates</p>
+        <img class="card__image" src="./images/icon-calculator.svg" alt="">
+      </div>
       </div>
     </div>
   </section>
-
 
 
   <footer>
@@ -55,4 +64,5 @@
     </p>
   </footer>
 </body>
+
 </html>
