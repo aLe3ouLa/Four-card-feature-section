@@ -128,6 +128,10 @@ body {
     height: 100%;
     padding: 4rem;
   }
+  
+  .features__title {
+    font-size: 2.5rem;
+  }
 
   .cards-container {
     grid-gap: 2rem;
